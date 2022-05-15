@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer="" src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <section class="game">
+
+      <div class="score">
+        <div class="player-score">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>Paper Scissors Rock</h1>
+        <h3>Note:</h3>
+        <ul>
+          <li>The game will end when either yours or computer's score reaches 10.</li>
+        </ul>
+        <button type="button" name="button">Click to play</button>
+      </div>
+
+      <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+
+        <div class="hands">
+          <img class="player-hand" src="Rock.png" alt="player hand">
+          <img class="computer-hand" src="Rock.png" alt="computer hand">
+        </div>
+
+        <div class="options">
+          <button id="ppr" type="button" name="button" class="paper">Paper</button>
+          <button id="sisr" type="button" name="button" class="scissors">Scissors</button>
+          <button id="rok" type="button" name="button" class="rock">Rock</button>
+        </div>
+
+      </div>
+
+      <div class="ending fadeOut">
+        <h2>End</h2>
+        <button type="button" name="button">Play again</button>
+      </div>
+
+    </section>
+
+
+  </body>
+</html>
