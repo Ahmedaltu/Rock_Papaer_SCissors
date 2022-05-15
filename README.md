@@ -1,4 +1,4 @@
-# Rock_Papaer_Scissors
+# Rock_Paper_Scissors
 
 Traditional Rock Papaer Scissors with some new featuers. 
 Features of the following:
