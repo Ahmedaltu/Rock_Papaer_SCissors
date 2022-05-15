@@ -1,6 +1,6 @@
 # Rock_Paper_Scissors
 
-Traditional Rock Papaer Scissors with some new featuers. 
+Traditional Rock Paper Scissors with some new featuers. 
 Features of the following:
 
 1- game ends after 10 wins for a player or computer 
